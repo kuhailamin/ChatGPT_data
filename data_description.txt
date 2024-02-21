@@ -1,3 +1,25 @@
 Dataset1: This dataset contains the raw data for the code experiments we conducted with ChatGPT-3
 
+Description of attributes:
+Timestamp1: When was attempt 1 for this coding problem recorded?
+Timestamp2: When was attempt 2 for this coding problem recorded?
+Timestamp3: When was attempt 3 for this coding problem recorded?
+Passed1: Did the coding problem pass on the first attempt? (1=Passed, 0=Failed, 2=Time exceeded)
+Passed2: Did the coding problem pass on the second attempt? (1=Passed, 0=Failed, 2=Time exceeded)
+Passed3: Did the coding problem pass on the third attempt? (1=Passed, 0=Failed, 2=Time exceeded)
+Runtime1: What's the runtime in milliseconds for running the coding problem at the first attempt?
+Runtime2: What's the runtime in milliseconds for running the coding problem at the second attempt?
+Runtime3: What's the runtime in milliseconds for running the coding problem at the third attempt?
+Memory1: What's the memory in MB for running the coding problem on the first attempt?
+Memory2: What's the memory in MB for running the coding problem on the second attempt?
+Memory3: What's the memory in MB for running the coding problem on the third attempt?
+Time_beats1: What percentage of human solutions does this code at attempt 1 beat (time-wise)?
+Time_beats2: What percentage of human solutions does this code at attempt 2 beat (time-wise)?
+Time_beats3: What percentage of human solutions does this code at attempt 3 beat (time-wise)?
+Memory_beats1: What percentage of human solutions does this code at attempt 1 beat (memory-wise)?
+Memory_beats2: What percentage of human solutions does this code at attempt 2 beat (memory-wise)?
+Memory_beats3: What percentage of human solutions does this code at attempt 3 beat (memory-wise)?
+
+
+
 Dataset2: This dataset contains the responses from the survey we conducted with practitioners regarding ChatGPT
